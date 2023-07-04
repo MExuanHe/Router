@@ -1,0 +1,14 @@
+use_frameworks!
+source 'git@git.gametaptap.com:ios/sdk/taptap-repo.git'
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '12.0'
+
+target 'TapRouter_Example' do
+  pod 'TapRouter', :path => '../'
+
+  target 'TapRouter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

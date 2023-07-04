@@ -1,0 +1,798 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		288216401170D11D1DF32EE0D5B0A046 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		2C7CC65A25CD32114F9CEEA611A36772 /* Pods-TapRouter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DBC21329E097E9063E156C385C2F545 /* Pods-TapRouter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E8D66688252F70C623C996828F8ECE3 /* RouterBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F75E0D8583203FFA3674A3A78F37B80 /* RouterBase.swift */; };
+		36BF8A838CE29AF1F34A80C7073292DA /* TapRouterKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE13B02609D00102C5DD57C4AF3E0E8 /* TapRouterKit.swift */; };
+		459824BC8915DF0A5A34EC198E84A535 /* Pods-TapRouter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2129C600EE0F071D890344A1ED8B8E44 /* Pods-TapRouter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C8D6E5FF1C16A1963F39C2EB2F45BB4 /* TapRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09402465AB45D7483158E91CDF6D31EF /* TapRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CBAB1AEE91353C47D6DAED318F1EB1C /* Pods-TapRouter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9EA3744A04E82F9558D349EB061609 /* Pods-TapRouter_Tests-dummy.m */; };
+		6EE7DAF52E9A91290BBFB68591547A44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		781546635C3AF2016ED78EF87DF36AD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		9FACB4D4E9F03C3B9D1973A6DD52DD0F /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26D5327C6B0D678A260970258DF8379 /* Router.swift */; };
+		B3B4E99764A7BCFB82022FFF32AA3307 /* Pods-TapRouter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 293B2255DF9AF9A5C73D3C5D923974E5 /* Pods-TapRouter_Example-dummy.m */; };
+		D0AB7F17F137DC6D1E72BD682F43239C /* RouteHooker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1BF38641149B525F333527BD2C1E92 /* RouteHooker.swift */; };
+		E47D84E6DA66D4FC6521361D6F66A7B4 /* TapRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 432A52D571ECCA4A8E8BCB17111F1057 /* TapRouter-dummy.m */; };
+		F004AE9CDD629BF788702D1ACDDA39F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1F375D797F24E3C34FCD6BC132ACD4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EC944F107AB3E6D73C5CFCEE7A57364;
+			remoteInfo = "Pods-TapRouter_Example";
+		};
+		B8209D58D3FD4A66AA45122344A4347B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1364B78A28EFC1BE22CE1274923BAB2F;
+			remoteInfo = TapRouter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09402465AB45D7483158E91CDF6D31EF /* TapRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TapRouter-umbrella.h"; sourceTree = "<group>"; };
+		0CB0D9042D97E8A45535BC8C4B8BF58E /* Pods-TapRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TapRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1BE13B02609D00102C5DD57C4AF3E0E8 /* TapRouterKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TapRouterKit.swift; path = TapRouter/Classes/TapRouterKit.swift; sourceTree = "<group>"; };
+		1D8CE07E05034D645EAC3013BE1BC797 /* Pods-TapRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TapRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1DBC21329E097E9063E156C385C2F545 /* Pods-TapRouter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TapRouter_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2129C600EE0F071D890344A1ED8B8E44 /* Pods-TapRouter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TapRouter_Example-umbrella.h"; sourceTree = "<group>"; };
+		25DFCB669C5384B1A143D61E8EA5B3DB /* TapRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TapRouter-prefix.pch"; sourceTree = "<group>"; };
+		293B2255DF9AF9A5C73D3C5D923974E5 /* Pods-TapRouter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TapRouter_Example-dummy.m"; sourceTree = "<group>"; };
+		2A109E2389F1542B330D96C872C7244E /* TapRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TapRouter.release.xcconfig; sourceTree = "<group>"; };
+		34815F2BDEF90055FD32166F8A42290C /* Pods-TapRouter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TapRouter_Example.modulemap"; sourceTree = "<group>"; };
+		3B1BF38641149B525F333527BD2C1E92 /* RouteHooker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RouteHooker.swift; path = TapRouter/Classes/RouteHooker.swift; sourceTree = "<group>"; };
+		413A8444971AD0427C9683EC2BACE99A /* Pods-TapRouter_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TapRouter_Tests-Info.plist"; sourceTree = "<group>"; };
+		432A52D571ECCA4A8E8BCB17111F1057 /* TapRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TapRouter-dummy.m"; sourceTree = "<group>"; };
+		60FA5DCAE21F43F7F679C26F42766F8B /* Pods-TapRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TapRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		652B3AA9AC1FF5D6BE51E88EA9EB0463 /* TapRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TapRouter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6EAB3AEDF304994EA169564E018DF08E /* Pods-TapRouter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TapRouter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		78E6DF6CA2F705EC1591889E1880A6AE /* Pods-TapRouter_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TapRouter_Example"; path = Pods_TapRouter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79DF3631C9A3D34B972B8EEB5A188013 /* TapRouter */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TapRouter; path = TapRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F75E0D8583203FFA3674A3A78F37B80 /* RouterBase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RouterBase.swift; path = TapRouter/Classes/RouterBase.swift; sourceTree = "<group>"; };
+		9135F7802C1563D5FD3BA0DB541A2809 /* TapRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TapRouter.modulemap; sourceTree = "<group>"; };
+		99FFED79D0C83D3BC584735C51334BEA /* Pods-TapRouter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TapRouter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A66171F51F7771C7F9027539C0CFD4B1 /* Pods-TapRouter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TapRouter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B1E7AB20CE4A807917484BB4C6371F79 /* TapRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TapRouter.debug.xcconfig; sourceTree = "<group>"; };
+		B5B08383AABA2B77CD12DFAE15D862D0 /* Pods-TapRouter_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TapRouter_Example-Info.plist"; sourceTree = "<group>"; };
+		B85FFDD24C6F78AD42CACFBBF533864E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BA9EA3744A04E82F9558D349EB061609 /* Pods-TapRouter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TapRouter_Tests-dummy.m"; sourceTree = "<group>"; };
+		C3B23A8081DF0E9A2F085B78FCA82258 /* Pods-TapRouter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TapRouter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C715605EE1CEF394053AFE42CD17334D /* Pods-TapRouter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TapRouter_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D3599B3D34D1AEC3BC54D1F344207A18 /* Pods-TapRouter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TapRouter_Tests.modulemap"; sourceTree = "<group>"; };
+		D3903DD11D7A80B7C13CBD02BD1879FE /* Pods-TapRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TapRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E26D5327C6B0D678A260970258DF8379 /* Router.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Router.swift; path = TapRouter/Classes/Router.swift; sourceTree = "<group>"; };
+		E957372DA25D5C9D407E006519ADC471 /* Pods-TapRouter_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TapRouter_Tests"; path = Pods_TapRouter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F64057A4B43FFFE8FB03B8C37BD33C2A /* TapRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TapRouter-Info.plist"; sourceTree = "<group>"; };
+		FA19063653809A6FDB9B9FC5AE4C43C2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F29418A688D407A8868BF8B3EE29F77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				781546635C3AF2016ED78EF87DF36AD3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B83D56793FB17FAD93B7D85B6F6D3E00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288216401170D11D1DF32EE0D5B0A046 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4571B50006CD3139F6EB39F6F76823 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE7DAF52E9A91290BBFB68591547A44 /* Foundation.framework in Frameworks */,
+				F004AE9CDD629BF788702D1ACDDA39F5 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CBDAF35D69F38D34DB26B4391474356 /* TapRouter */ = {
+			isa = PBXGroup;
+			children = (
+				3B1BF38641149B525F333527BD2C1E92 /* RouteHooker.swift */,
+				E26D5327C6B0D678A260970258DF8379 /* Router.swift */,
+				7F75E0D8583203FFA3674A3A78F37B80 /* RouterBase.swift */,
+				1BE13B02609D00102C5DD57C4AF3E0E8 /* TapRouterKit.swift */,
+				127C94BE4F2DCAF99A370EA7A952566E /* Pod */,
+				318694E215C17CE6590BFF2B8D0749EA /* Support Files */,
+			);
+			name = TapRouter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		127C94BE4F2DCAF99A370EA7A952566E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B85FFDD24C6F78AD42CACFBBF533864E /* LICENSE */,
+				FA19063653809A6FDB9B9FC5AE4C43C2 /* README.md */,
+				652B3AA9AC1FF5D6BE51E88EA9EB0463 /* TapRouter.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		318694E215C17CE6590BFF2B8D0749EA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9135F7802C1563D5FD3BA0DB541A2809 /* TapRouter.modulemap */,
+				432A52D571ECCA4A8E8BCB17111F1057 /* TapRouter-dummy.m */,
+				F64057A4B43FFFE8FB03B8C37BD33C2A /* TapRouter-Info.plist */,
+				25DFCB669C5384B1A143D61E8EA5B3DB /* TapRouter-prefix.pch */,
+				09402465AB45D7483158E91CDF6D31EF /* TapRouter-umbrella.h */,
+				B1E7AB20CE4A807917484BB4C6371F79 /* TapRouter.debug.xcconfig */,
+				2A109E2389F1542B330D96C872C7244E /* TapRouter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TapRouter";
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		819053181FCBB48B9D6A56222EEE205D /* Pods-TapRouter_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D3599B3D34D1AEC3BC54D1F344207A18 /* Pods-TapRouter_Tests.modulemap */,
+				A66171F51F7771C7F9027539C0CFD4B1 /* Pods-TapRouter_Tests-acknowledgements.markdown */,
+				99FFED79D0C83D3BC584735C51334BEA /* Pods-TapRouter_Tests-acknowledgements.plist */,
+				BA9EA3744A04E82F9558D349EB061609 /* Pods-TapRouter_Tests-dummy.m */,
+				413A8444971AD0427C9683EC2BACE99A /* Pods-TapRouter_Tests-Info.plist */,
+				1DBC21329E097E9063E156C385C2F545 /* Pods-TapRouter_Tests-umbrella.h */,
+				1D8CE07E05034D645EAC3013BE1BC797 /* Pods-TapRouter_Tests.debug.xcconfig */,
+				0CB0D9042D97E8A45535BC8C4B8BF58E /* Pods-TapRouter_Tests.release.xcconfig */,
+			);
+			name = "Pods-TapRouter_Tests";
+			path = "Target Support Files/Pods-TapRouter_Tests";
+			sourceTree = "<group>";
+		};
+		92AD7C78D985C063C2B18E38E9B2D892 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				931384E1C27AE5F93F2E98E3C1FA2883 /* Pods-TapRouter_Example */,
+				819053181FCBB48B9D6A56222EEE205D /* Pods-TapRouter_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		931384E1C27AE5F93F2E98E3C1FA2883 /* Pods-TapRouter_Example */ = {
+			isa = PBXGroup;
+			children = (
+				34815F2BDEF90055FD32166F8A42290C /* Pods-TapRouter_Example.modulemap */,
+				6EAB3AEDF304994EA169564E018DF08E /* Pods-TapRouter_Example-acknowledgements.markdown */,
+				C3B23A8081DF0E9A2F085B78FCA82258 /* Pods-TapRouter_Example-acknowledgements.plist */,
+				293B2255DF9AF9A5C73D3C5D923974E5 /* Pods-TapRouter_Example-dummy.m */,
+				C715605EE1CEF394053AFE42CD17334D /* Pods-TapRouter_Example-frameworks.sh */,
+				B5B08383AABA2B77CD12DFAE15D862D0 /* Pods-TapRouter_Example-Info.plist */,
+				2129C600EE0F071D890344A1ED8B8E44 /* Pods-TapRouter_Example-umbrella.h */,
+				D3903DD11D7A80B7C13CBD02BD1879FE /* Pods-TapRouter_Example.debug.xcconfig */,
+				60FA5DCAE21F43F7F679C26F42766F8B /* Pods-TapRouter_Example.release.xcconfig */,
+			);
+			name = "Pods-TapRouter_Example";
+			path = "Target Support Files/Pods-TapRouter_Example";
+			sourceTree = "<group>";
+		};
+		9C7F8C0AD7D929C30E8484B7DBCA33B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78E6DF6CA2F705EC1591889E1880A6AE /* Pods-TapRouter_Example */,
+				E957372DA25D5C9D407E006519ADC471 /* Pods-TapRouter_Tests */,
+				79DF3631C9A3D34B972B8EEB5A188013 /* TapRouter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8C63818096B7DE7F1D0393BE36FB310 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0CBDAF35D69F38D34DB26B4391474356 /* TapRouter */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B8C63818096B7DE7F1D0393BE36FB310 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				9C7F8C0AD7D929C30E8484B7DBCA33B6 /* Products */,
+				92AD7C78D985C063C2B18E38E9B2D892 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		241E4CE6C91BEDF85D18F2A8AF8C7776 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				459824BC8915DF0A5A34EC198E84A535 /* Pods-TapRouter_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA58DF7DE3E5892AF1A8B0EAEEE030F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C7CC65A25CD32114F9CEEA611A36772 /* Pods-TapRouter_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2D17EBE3360AAC65FB10F2510860C67 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C8D6E5FF1C16A1963F39C2EB2F45BB4 /* TapRouter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1364B78A28EFC1BE22CE1274923BAB2F /* TapRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6BB8379D17D5A4A41C64D8F580A243D /* Build configuration list for PBXNativeTarget "TapRouter" */;
+			buildPhases = (
+				E2D17EBE3360AAC65FB10F2510860C67 /* Headers */,
+				E76D05E994C7265EFC938C378888AA02 /* Sources */,
+				FF4571B50006CD3139F6EB39F6F76823 /* Frameworks */,
+				E64C88BEF38A31EBBB198640DCD04CCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapRouter;
+			productName = TapRouter;
+			productReference = 79DF3631C9A3D34B972B8EEB5A188013 /* TapRouter */;
+			productType = "com.apple.product-type.framework";
+		};
+		38FAE48EFB12F7FD2EDD23E47F0BF1A7 /* Pods-TapRouter_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 773094E5F53A51BFDA36119192D34CBE /* Build configuration list for PBXNativeTarget "Pods-TapRouter_Tests" */;
+			buildPhases = (
+				DCA58DF7DE3E5892AF1A8B0EAEEE030F /* Headers */,
+				4A0B3855920E21FB93C6A3DD59958D1F /* Sources */,
+				B83D56793FB17FAD93B7D85B6F6D3E00 /* Frameworks */,
+				22DBC929FD81B0ABD68170C2DBE49E2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47A77A886BFEA86B66543CC2BE382ED8 /* PBXTargetDependency */,
+			);
+			name = "Pods-TapRouter_Tests";
+			productName = Pods_TapRouter_Tests;
+			productReference = E957372DA25D5C9D407E006519ADC471 /* Pods-TapRouter_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		8EC944F107AB3E6D73C5CFCEE7A57364 /* Pods-TapRouter_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 980E397792B0862857B175EFD8A80BA2 /* Build configuration list for PBXNativeTarget "Pods-TapRouter_Example" */;
+			buildPhases = (
+				241E4CE6C91BEDF85D18F2A8AF8C7776 /* Headers */,
+				5EFFA793E71009ED2BDE84D3C257038E /* Sources */,
+				2F29418A688D407A8868BF8B3EE29F77 /* Frameworks */,
+				F864620332E99BD661F3BBAB54BDE5A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1714C805D8C90B812B3FAAC243D009A /* PBXTargetDependency */,
+			);
+			name = "Pods-TapRouter_Example";
+			productName = Pods_TapRouter_Example;
+			productReference = 78E6DF6CA2F705EC1591889E1880A6AE /* Pods-TapRouter_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9C7F8C0AD7D929C30E8484B7DBCA33B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EC944F107AB3E6D73C5CFCEE7A57364 /* Pods-TapRouter_Example */,
+				38FAE48EFB12F7FD2EDD23E47F0BF1A7 /* Pods-TapRouter_Tests */,
+				1364B78A28EFC1BE22CE1274923BAB2F /* TapRouter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22DBC929FD81B0ABD68170C2DBE49E2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E64C88BEF38A31EBBB198640DCD04CCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F864620332E99BD661F3BBAB54BDE5A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A0B3855920E21FB93C6A3DD59958D1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CBAB1AEE91353C47D6DAED318F1EB1C /* Pods-TapRouter_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EFFA793E71009ED2BDE84D3C257038E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B4E99764A7BCFB82022FFF32AA3307 /* Pods-TapRouter_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76D05E994C7265EFC938C378888AA02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0AB7F17F137DC6D1E72BD682F43239C /* RouteHooker.swift in Sources */,
+				9FACB4D4E9F03C3B9D1973A6DD52DD0F /* Router.swift in Sources */,
+				2E8D66688252F70C623C996828F8ECE3 /* RouterBase.swift in Sources */,
+				E47D84E6DA66D4FC6521361D6F66A7B4 /* TapRouter-dummy.m in Sources */,
+				36BF8A838CE29AF1F34A80C7073292DA /* TapRouterKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47A77A886BFEA86B66543CC2BE382ED8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TapRouter_Example";
+			target = 8EC944F107AB3E6D73C5CFCEE7A57364 /* Pods-TapRouter_Example */;
+			targetProxy = B1F375D797F24E3C34FCD6BC132ACD4E /* PBXContainerItemProxy */;
+		};
+		A1714C805D8C90B812B3FAAC243D009A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TapRouter;
+			target = 1364B78A28EFC1BE22CE1274923BAB2F /* TapRouter */;
+			targetProxy = B8209D58D3FD4A66AA45122344A4347B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06F4245DFB79E62DC2CBFA8D8183D087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60FA5DCAE21F43F7F679C26F42766F8B /* Pods-TapRouter_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TapRouter_Example/Pods-TapRouter_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TapRouter_Example/Pods-TapRouter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4A9B2F81F161955F6EFA02B513CD1008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3903DD11D7A80B7C13CBD02BD1879FE /* Pods-TapRouter_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TapRouter_Example/Pods-TapRouter_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TapRouter_Example/Pods-TapRouter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		68D6A6C1747F4B54921C0E6689BBBAB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D8CE07E05034D645EAC3013BE1BC797 /* Pods-TapRouter_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TapRouter_Tests/Pods-TapRouter_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TapRouter_Tests/Pods-TapRouter_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84DF572339051BCCF5517715D35B8A62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A109E2389F1542B330D96C872C7244E /* TapRouter.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TapRouter/TapRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TapRouter/TapRouter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TapRouter/TapRouter.modulemap";
+				PRODUCT_MODULE_NAME = TapRouter;
+				PRODUCT_NAME = TapRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C5336191C4C5FE24DFDF2ECF7373C6FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CB0D9042D97E8A45535BC8C4B8BF58E /* Pods-TapRouter_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TapRouter_Tests/Pods-TapRouter_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TapRouter_Tests/Pods-TapRouter_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DCBC61D4B37A6BE52DBD217A101ACFC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1E7AB20CE4A807917484BB4C6371F79 /* TapRouter.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TapRouter/TapRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TapRouter/TapRouter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TapRouter/TapRouter.modulemap";
+				PRODUCT_MODULE_NAME = TapRouter;
+				PRODUCT_NAME = TapRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		773094E5F53A51BFDA36119192D34CBE /* Build configuration list for PBXNativeTarget "Pods-TapRouter_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68D6A6C1747F4B54921C0E6689BBBAB1 /* Debug */,
+				C5336191C4C5FE24DFDF2ECF7373C6FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		980E397792B0862857B175EFD8A80BA2 /* Build configuration list for PBXNativeTarget "Pods-TapRouter_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A9B2F81F161955F6EFA02B513CD1008 /* Debug */,
+				06F4245DFB79E62DC2CBFA8D8183D087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6BB8379D17D5A4A41C64D8F580A243D /* Build configuration list for PBXNativeTarget "TapRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCBC61D4B37A6BE52DBD217A101ACFC7 /* Debug */,
+				84DF572339051BCCF5517715D35B8A62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

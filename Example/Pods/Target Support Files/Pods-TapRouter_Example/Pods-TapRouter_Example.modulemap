@@ -1,0 +1,6 @@
+framework module Pods_TapRouter_Example {
+  umbrella header "Pods-TapRouter_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

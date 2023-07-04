@@ -1,0 +1,16 @@
+PODS:
+  - TapRouter (0.0.10)
+
+DEPENDENCIES:
+  - TapRouter (from `../`)
+
+EXTERNAL SOURCES:
+  TapRouter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TapRouter: 482bdd2bb8569dd1818541532435b843f10d25ac
+
+PODFILE CHECKSUM: b4f44c05ab81411b984306a3e51bbecacf2c9155
+
+COCOAPODS: 1.12.1

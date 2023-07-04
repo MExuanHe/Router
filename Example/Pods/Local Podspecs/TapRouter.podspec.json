@@ -1,0 +1,29 @@
+{
+  "name": "TapRouter",
+  "version": "0.0.10",
+  "summary": "A short description of TapRouter.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://git.gametaptap.com/ios/sdk/taprouter.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "TapTap": "zhangxuanhe@xd.com"
+  },
+  "source": {
+    "git": "git@git.gametaptap.com:ios/universal/taprouter.git",
+    "tag": "0.0.10"
+  },
+  "swift_versions": "5.0",
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source_files": "TapRouter/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.h",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "swift_version": "5.0"
+}
